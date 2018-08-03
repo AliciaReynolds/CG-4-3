@@ -12,10 +12,12 @@ namespace CG_4_3
             Console.WriteLine("Please enter a name.");
             string[] Names = Console.ReadLine().Split(' ');
             {
+                for (int name = 0; name < 31; name++)
+                {
 
-                var name = Console.ReadLine();
+                    array[Name] = double.Parse(Names);
 
-                if (string.IsNullOrEmpty(name))
+                if (string.IsNullOrEmpty(Name))
                     { 
                     break;
                 }
