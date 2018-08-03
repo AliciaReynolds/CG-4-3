@@ -8,10 +8,11 @@ namespace CG_4_3
         {
 
             Random winner = new Random();
-            string[] Names = new string[30];
+
+            Console.WriteLine("Please enter a name.");
+            string[] Names = Console.ReadLine().Split(' ');
             {
 
-                Console.WriteLine("Please enter a name.");
                 var name = Console.ReadLine();
 
                 if (string.IsNullOrEmpty(name))
