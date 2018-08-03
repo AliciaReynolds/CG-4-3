@@ -9,15 +9,16 @@ namespace CG_4_3
 
             Random winner = new Random();
 
+            //string[] array = new string[30];
             Console.WriteLine("Please enter a name.");
-            string[] Names = Console.ReadLine().Split(' ');
+            string[] Names = new string[30];
             {
                 for (int name = 0; name < 31; name++)
                 {
 
-                    array[Name] = double.Parse(Names);
+                    Names[] = Console.ReadLine();
 
-                if (string.IsNullOrEmpty(Name))
+                if (string.IsNullOrEmpty(name))
                     { 
                     break;
                 }
