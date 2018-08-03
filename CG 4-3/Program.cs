@@ -11,14 +11,15 @@ namespace CG_4_3
 
             //string[] array = new string[30];
             Console.WriteLine("Please enter a name.");
-            string[] Names = new string[30];
+            string answer = Console.ReadLine();
+            string[] name = new string[int.Parse(answer)];
+
             {
-                for (int name = 0; name < 31; name++)
+                for (int names = 0; names < 31; names++)
                 {
+                    int names = int.Parse(name);
 
-                    Names[] = Console.ReadLine();
-
-                if (string.IsNullOrEmpty(name))
+                if (string.IsNullOrEmpty(names))
                     { 
                     break;
                 }
