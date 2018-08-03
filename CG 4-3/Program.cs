@@ -15,7 +15,7 @@ namespace CG_4_3
 
                 if (name.Equals(null))
                     {
-
+                    break;
                 }
 
 
