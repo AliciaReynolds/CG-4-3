@@ -13,8 +13,8 @@ namespace CG_4_3
                 Console.WriteLine("Please enter a name.");
                 var name = Console.ReadLine();
 
-                if (name.Equals(null))
-                    {
+                if (string.IsNullOrEmpty(name))
+                    { 
                     break;
                 }
 
