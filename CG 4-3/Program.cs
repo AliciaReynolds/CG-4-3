@@ -7,7 +7,7 @@ namespace CG_4_3
         static void Main(string[] args)
         {
 
-
+            Random winner = new Random();
             for (int Names = 0; Names < 31; Names++)
             {
                 Console.WriteLine("Please enter a name.");
@@ -17,6 +17,9 @@ namespace CG_4_3
                     { 
                     break;
                 }
+
+                int mIndex = winner.Next(name.Length);
+                Console.WriteLine("The winner of the raffle is {0}!!");
 
 
             }
