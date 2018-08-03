@@ -17,11 +17,12 @@ namespace CG_4_3
             {
                 for (int names = 0; names < 31; names++)
                 {
-                    int names = int.Parse(name);
 
-                if (string.IsNullOrEmpty(names))
-                    { 
-                    break;
+                    if (names == null) break;
+                
+                //if (string.IsNullOrEmpty(names))
+                //    { 
+                //    break;
                 }
 
                 int mIndex = winner.Next(name.Length);
