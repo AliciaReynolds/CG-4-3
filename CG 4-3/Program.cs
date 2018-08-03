@@ -12,7 +12,7 @@ namespace CG_4_3
             //string[] array = new string[30];
             Console.WriteLine("Please enter a name.");
             string answer = Console.ReadLine();
-            string[] name = new string[(int.Parse(answer)];
+            string[] name = new string[30];
 
             {
                 for (int names = 0; names < 31; names++)
