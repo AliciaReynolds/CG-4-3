@@ -8,8 +8,9 @@ namespace CG_4_3
         {
 
             Random winner = new Random();
-            for (int Names = 0; Names < 31; Names++)
+            string[] Names = new string[30];
             {
+
                 Console.WriteLine("Please enter a name.");
                 var name = Console.ReadLine();
 
